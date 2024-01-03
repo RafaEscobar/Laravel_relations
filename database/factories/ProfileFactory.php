@@ -16,7 +16,6 @@ class ProfileFactory extends Factory
      */
     public function definition(): array
     {
-        $count = 0;
         return [
             'identifier' => "PU-" . fake()->uuid(),
             'user_id' => fake()->numberBetween(1, 5),
