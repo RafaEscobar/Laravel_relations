@@ -1,4 +1,4 @@
-<x-layout title="Relación 1:1">
+<x-layout title="Bienvenido">
     <div class="w-full h-screen flex justify-center items-center">
         <div>
             <p class="text-2xl animate-bounce">Da click en alguna opción de menu</p>

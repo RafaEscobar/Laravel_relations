@@ -19,5 +19,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('user', UserController::class);
-Route::resource('profile', ProfileController::class);
+Route::resource('users', UserController::class);
+Route::resource('profiles', ProfileController::class);
