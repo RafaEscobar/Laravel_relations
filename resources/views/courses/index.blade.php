@@ -6,6 +6,9 @@
         @foreach ($courses as $course)
             <div class="text-red-500 text-xl">
                 <span class="block text-2xl font-bold text-blue-500">{{$course->name}}</span>
+                @foreach ($course->students as $student)
+                    <span class="text-red-500 text-sm">-> {{$student->name}}</span>
+                @endforeach
             </div>
         @endforeach
     </div>
