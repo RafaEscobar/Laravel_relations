@@ -11,7 +11,7 @@
     </div>
     <div class="p-4 cursor-pointer">
         <span class="bg-slate-100 p-2 rounded-lg hover:bg-white">
-            <a href="">Relación N:N</a>
+            <a href="{{route('students.index')}}">Relación N:N</a>
         </span>
     </div>
 </div>
