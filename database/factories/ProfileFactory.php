@@ -17,7 +17,7 @@ class ProfileFactory extends Factory
     public function definition(): array
     {
         return [
-            'identifier' => "PU-" . fake()->uuid(),
+            'description' => fake()->word(6),
             'user_id' => fake()->numberBetween(1, 5),
         ];
     }
