@@ -6,6 +6,7 @@
         @foreach ($profiles as $profile)
             <div class="border-2 border-blue-200 mb-4 p-4 rounded-xl">
                 <span class="block text-2xl font-bold text-blue-500">{{$profile->description}}</span>
+                <span class="text-sm text-red-500">-> {{$profile->user->name}}</span>
             </div>
         @endforeach
     </div>
